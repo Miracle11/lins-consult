@@ -1,0 +1,33 @@
+/*Footer Styling*/
+.custom-footer{
+    background-color: #263238;
+}
+
+/*Custom button*/
+.buttonStyle{
+    position: absolute !important;
+    bottom: 20px !important;
+    background-color: #fff !important;
+    padding: 12px !important;
+    color: #000 !important;
+    width: 120px !important;
+    height: 50px !important;
+}
+.buttonStyle:hover{
+    background-color: #FF725E !important;
+    color: #fff !important;
+}
+.contact-card{
+    width: 60% !important;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .buttonStyle{
+        position: relative !important;
+        margin-top: 20px;
+    }
+    .contact-card{
+        width: 100% !important;
+    }
+}
